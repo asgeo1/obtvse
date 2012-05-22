@@ -1,1 +1,125 @@
 /* Insert your custom theme here */
+p {
+  color:#4D4D4D;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#3a3a3a;
+}
+
+body {
+  font-size:13px;
+}
+
+h1{
+  font-size:30px;
+  margin-bottom:45px;
+  line-height:28px;
+}
+
+.contain {
+  width: auto;
+}
+
+.contain p, .contain h1, .contain h2{
+  width: 500px;
+}
+
+.contain p {
+}
+
+a:hover{
+  color:#3A74D0;
+}
+
+a:focus{
+  outline:thin dotted
+}
+
+a:hover, a:active{
+  outline:0
+}
+
+header {
+  font-size:16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+header h1 {
+  font-weight:bold;
+}
+
+header span {
+  font-family: Helvetica;
+  font-weight: 100;
+}
+
+header li {
+  line-height: 43px;
+}
+
+header li a {
+  border: 3px solid #F8F8F8;
+  border-radius: 30px;
+  color: #999;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: Helvetica;
+  font-weight: 100;
+}
+
+header ul {
+  margin-top: 35px;
+}
+
+header li a:hover {
+  border-color:#3A74D0;
+  color:#3A74D0;
+}
+
+/* first for IE 6/7/8 */
+@font-face {
+  font-family: NuvoWeb-Medi;
+  src: url(/assets/NuvoWeb-Medi.eot);
+}
+
+/* then for Mozilla browsers -> Firefox */
+@font-face {
+  font-family: NuvoWeb-Medi;
+  src: url(/assets/NuvoWeb-Medi.woff) format('woff');
+}
+
+/* go on with normal style definitions */
+body { 
+  font-family: NuvoWeb-Medi, sans-serif;
+}
+
+::-moz-selection,::selection{background:#3A74D0;color:#fff;text-shadow:none}
+
+#content section a.button {
+  background-color:white;
+  color: #3A74D0;
+  border: 3px solid #3A74D0;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 70px;
+  font-size: 17px;
+}
+
+#content section a.button:before {
+  content:'← ';
+}
+
+#content section a.button:hover {
+  background-color:#3A74D0;
+  border-color:#3A74D0;
+  color:white;
+}
